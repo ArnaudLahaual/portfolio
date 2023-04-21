@@ -11,8 +11,8 @@ const Projects = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quasi impedit, incidunt tempore odio distinctio eaque molestias necessitatibus quibusdam? Inventore neque nulla aut dolorum eos maxime nihil cumque labore sunt, dolore, autem totam incidunt quisquam quae ipsa ducimus accusamus eveniet recusandae! Facere veritatis ea eius ad dignissimos odio aspernatur omnis!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <ProjectItem img={neolys} title='Neolys Patrimoine' />
-                <ProjectItem img={pokedex} title='Pokedex' /> 
+                <ProjectItem img={neolys} title='Neolys Patrimoine' site={"https://neolys-patrimoine.fr/"} />
+                <ProjectItem img={pokedex} title='Pokedex'site={"https://arno-pokedex.netlify.app"} /> 
             </div>
         </div>
     )
