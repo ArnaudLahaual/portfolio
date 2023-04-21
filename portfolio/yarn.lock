@@ -2879,6 +2879,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.8.0
+    react-type-animation: ^3.0.1
     tailwindcss: ^3.3.1
     vite: ^4.3.1
   languageName: unknown
@@ -3053,6 +3054,17 @@ __metadata:
   version: 0.14.0
   resolution: "react-refresh@npm:0.14.0"
   checksum: dc69fa8c993df512f42dd0f1b604978ae89bd747c0ed5ec595c0cc50d535fb2696619ccd98ae28775cc01d0a7c146a532f0f7fb81dc22e1977c242a4912312f4
+  languageName: node
+  linkType: hard
+
+"react-type-animation@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "react-type-animation@npm:3.0.1"
+  peerDependencies:
+    prop-types: ^15.5.4
+    react: ">= 15.0.0"
+    react-dom: ">= 15.0.0"
+  checksum: fdc5ecbb55e90723ef37c118bd8a5c6f6870ea3eb495252ac0a8e80ad8a38706d4631ab668a47bdd0d17617498d612c45e530e50215b17258dd8dd7be6cfefc0
   languageName: node
   linkType: hard
 
