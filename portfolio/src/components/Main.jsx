@@ -13,10 +13,10 @@ const Main = ()=> {
                 <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
                 <TypeAnimation
                     sequence={[
-                        'Developpeur', // Types 'One'
-                        1000, // Waits 1s
-                        'FullStack', // Deletes 'One' and types 'Two'
-                        2000, // Waits 2s
+                        'Developpeur',
+                        1000, 
+                        'FullStack', 
+                        2000,
                     ]}
                     wrapper="span"
                     cursor={true}
@@ -25,8 +25,8 @@ const Main = ()=> {
                     />
                 </h2>
                 <div className="flex justify-center pt-6 max-w-[200px] w-full">
-                    <BsLinkedin className="cursor-pointer m-5 " size={30} />
-                    <BsGithub className="cursor-pointer m-5"  size={30}/>
+                    <a href="https://www.linkedin.com/in/arnaud-lahaual/"> <BsLinkedin className="cursor-pointer m-5 " size={30}/></a>
+                    <a href="https://github.com/ArnaudLahaual"> <BsGithub className="cursor-pointer m-5 " size={30}/></a>
                 </div>
             </div>
         </div>
